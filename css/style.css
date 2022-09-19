@@ -1,0 +1,519 @@
+.homeSection {
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+header h5 {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Testimonials h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+}
+
+
+header h1::after {
+    content: '';
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "L|";
+    }
+
+    1% {
+        content: "La|";
+    }
+
+    2% {
+        content: "Larr|";
+    }
+
+    3% {
+        content: "Larry|";
+    }
+
+    4% {
+        content: "Larry |";
+    }
+
+    5% {
+        content: "Larry D|";
+    }
+
+    6% {
+        content: "Larry Da|";
+    }
+
+    7% {
+        content: "Larry Dan|";
+    }
+
+    8% {
+        content: "Larry Dani|";
+    }
+
+    9% {
+        content: "Larry Danie|";
+    }
+
+    10% {
+        content: "Larry Daniel|";
+    }
+
+    11% {
+        content: "Larry Daniels|";
+    }
+
+    12% {
+        content: "Larry Daniel|";
+    }
+
+    13% {
+        content: "Larry Danie|";
+    }
+
+    14% {
+        content: "Larry Dani|";
+    }
+
+    15% {
+        content: "Larry Dan|";
+    }
+
+    16% {
+        content: "Larry Da|";
+    }
+
+    17% {
+        content: "Larry D|";
+    }
+
+    18% {
+        content: "Larry|";
+    }
+
+    19% {
+        content: "Larr|";
+    }
+
+    20% {
+        content: "Lar|";
+    }
+
+    21% {
+        content: "La|";
+    }
+
+    22% {
+        content: "L|";
+    }
+
+    23% {
+        content: "|";
+    }
+
+    24% {
+        content: "D|";
+    }
+
+    25% {
+        content: "De|";
+    }
+
+    26% {
+        content: "Des|";
+    }
+
+    27% {
+        content: "Desi|";
+    }
+
+    28% {
+        content: "Desig|";
+    }
+
+    29% {
+        content: "Design|";
+    }
+
+    30% {
+        content: "Designe|";
+    }
+
+    31% {
+        content: "Designer|";
+    }
+
+    32% {
+        content: "Designe|";
+    }
+
+    33% {
+        content: "Design|";
+    }
+
+    34% {
+        content: "Desig|";
+    }
+
+    35% {
+        content: "Desi|";
+    }
+
+    36% {
+        content: "Des|";
+    }
+
+    37% {
+        content: "De|";
+    }
+
+    38% {
+        content: "D|";
+    }
+
+    39% {
+        content: "|";
+    }
+
+    40% {
+        content: "D|";
+    }
+
+    41% {
+        content: "De|";
+    }
+
+    42% {
+        content: "Dev|";
+    }
+
+    43% {
+        content: "Deve|";
+    }
+
+    44% {
+        content: "Devel|";
+    }
+
+    45% {
+        content: "Develo|";
+    }
+
+    46% {
+        content: "Develop|";
+    }
+
+    47% {
+        content: "Develope|";
+    }
+
+    48% {
+        content: "Developer|";
+    }
+
+    49% {
+        content: "Develope|";
+    }
+
+    50% {
+        content: "Develop|";
+    }
+
+    51% {
+        content: "Develo|";
+    }
+
+    52% {
+        content: "Devel|";
+    }
+
+    53% {
+        content: "Deve|";
+    }
+
+    54% {
+        content: "Dev|";
+    }
+
+    55% {
+        content: "De|";
+    }
+
+    56% {
+        content: "D|";
+    }
+
+    57% {
+        content: "|";
+    }
+
+    58% {
+        content: "|";
+    }
+
+    59% {
+        content: "|";
+    }
+
+    60% {
+        content: "L|";
+    }
+
+    61% {
+        content: "La|";
+    }
+
+    62% {
+        content: "Larr|";
+    }
+
+    63% {
+        content: "Larry|";
+    }
+
+    64% {
+        content: "Larry |";
+    }
+
+    65% {
+        content: "Larry D|";
+    }
+
+    66% {
+        content: "Larry Da|";
+    }
+
+    67% {
+        content: "Larry Dan|";
+    }
+
+    68% {
+        content: "Larry Dani|";
+    }
+
+    69% {
+        content: "Larry Danie|";
+    }
+
+    70% {
+        content: "Larry Daniel|";
+    }
+
+    71% {
+        content: "Larry Daniels|";
+    }
+
+    72% {
+        content: "Larry Daniel|";
+    }
+
+    73% {
+        content: "Larry Danie|";
+    }
+
+    74% {
+        content: "Larry Dani|";
+    }
+
+    75% {
+        content: "Larry Dan|";
+    }
+
+    76% {
+        content: "Larry Da|";
+    }
+
+    77% {
+        content: "Larry D|";
+    }
+
+    78% {
+        content: "Larry|";
+    }
+
+    79% {
+        content: "Larr|";
+    }
+
+    80% {
+        content: "Lar|";
+    }
+
+    21% {
+        content: "La|";
+    }
+
+    82% {
+        content: "L|";
+    }
+
+    83% {
+        content: "|";
+    }
+
+    84% {
+        content: "D|";
+    }
+
+    85% {
+        content: "De|";
+    }
+
+    86% {
+        content: "Des|";
+    }
+
+    87% {
+        content: "Desi|";
+    }
+
+    88% {
+        content: "Desig|";
+    }
+
+    89% {
+        content: "Design|";
+    }
+
+    90% {
+        content: "Designe|";
+    }
+
+    91% {
+        content: "Designer|";
+    }
+
+    92% {
+        content: "Designe|";
+    }
+
+    93% {
+        content: "Design|";
+    }
+
+    94% {
+        content: "Desig|";
+    }
+
+    95% {
+        content: "Desi|";
+    }
+
+    96% {
+        content: "Des|";
+    }
+
+    97% {
+        content: "De|";
+    }
+
+    98% {
+        content: "D|";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: " ";
+    }
+}
+
+#myTabContent img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.layer-port{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    opacity: 0;
+}
+/* 
+.switch:hover  .layer-switch{
+    opacity: 1;
+}
+.switch:hover  .scaling-image{
+    transform: scale(1.1);
+}
+.scaling-image{
+    transition: all 2s;
+}
+.layer-switch-content{
+    position: absolute;
+    
+    transition: 1s;
+}
+ */
+
+.Testimonials-img{
+    width: 90px;
+    height: 90px;
+}
+
+.aboutme h3{
+    font-weight: bold;
+}
+
+.about-font p{
+    color: #748182;
+}
+
+
+.Services h1{
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Services {
+    background-color:  #f5f5f5;
+}
+
+.copyrights {
+    color:#748182;
+    font-size: 13px;
+    overflow-y: hidden;    
+}
+
